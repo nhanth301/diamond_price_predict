@@ -66,7 +66,7 @@ class ModelTrainer:
             # To get best model score from dictionary 
             best_model_score = max(model_report.values())
 
-            best_model_name = [ key for key in model_report.keys() if model_report[key] == best_model_score]
+            best_model_name = [key for key in model_report.keys() if model_report[key] == best_model_score][0]
             
             best_model = models[best_model_name]
 

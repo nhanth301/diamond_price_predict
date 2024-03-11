@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import pandas as pd
 from src.logger.logging import logging
-from src.exception.exception import customexception
+from src.exception.exception import CustomException
 
 
 def save_object(file_path, obj):
@@ -17,7 +17,7 @@ def save_object(file_path, obj):
             pickle.dump(obj, file_obj)
 
     except Exception as e:
-        raise customexception(e, sys)
+        raise CustomException(e, sys)
     
     
 def load_object(file_path):
@@ -26,6 +26,6 @@ def load_object(file_path):
             return pickle.load(file_obj)
     except Exception as e:
         logging.info('Exception Occured in load_object function utils')
-        raise customexception(e,sys)
+        raise CustomException(e,sys)
 
     
