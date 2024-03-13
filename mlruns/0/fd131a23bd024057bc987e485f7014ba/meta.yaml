@@ -1,0 +1,15 @@
+artifact_uri: file:///home/thnhan/Documents/GIT/end2end/mlops_template/mlruns/0/fd131a23bd024057bc987e485f7014ba/artifacts
+end_time: 1710347726655
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd131a23bd024057bc987e485f7014ba
+run_name: unequaled-snake-938
+run_uuid: fd131a23bd024057bc987e485f7014ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710347724967
+status: 3
+tags: []
+user_id: thnhan
